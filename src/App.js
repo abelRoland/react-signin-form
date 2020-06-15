@@ -32,7 +32,6 @@ class App extends Component {
 		if(mounted) {
 			child = (
 				<div className="App_test">
-					<NavigationPanel></NavigationPanel>
 					<Modal onSubmit={this.handleSubmit}/>
 				</div>
 			);
